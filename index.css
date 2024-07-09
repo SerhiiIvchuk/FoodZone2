@@ -22,7 +22,7 @@
 .navigation {
 	width: 430px;
 	height: 26px;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 .cart {
 	width: 34px;
@@ -31,4 +31,25 @@
 }
 .navigation-cart-block {
 	width: 540px;
+}
+.navigation > ul {
+	/*background-color: grey;*/
+	list-style: none;
+
+}
+.navigation li > a {
+	line-height: 26px;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: Inter;
+	color: #6B6B6B;
+	transition: 0.5s;
+}
+.navigation li:hover > a {
+	font-weight: 600;
+	color: black;
+	transition: 0.5s;
+}
+.navigation a {
+	text-decoration: none;
 }
